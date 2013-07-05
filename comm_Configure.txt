@@ -1,0 +1,16 @@
+SerialConnection.java (This file is used to connect to your COM port from your java program)
+SerialConnectionException.java (This file is for handling serial connection exceptions in your Java program)
+SerialParameters.java (This program is used to set your COM port properties for connecting to your com port from your java program)
+Sender.java (This is the program that implements runnable and sends SMS using the serial connection)
+SMSClient.java (This java class is the main class that can be instantiated in your own java program and called to send SMS. This program in turn will use all the above four files internally to send out your SMS).
+
+
+
+Configure in to java 
+1)Comm.jar file copy in to java/jdk/lib
+2)javax.comm.properties file copy in to java/jdk/lib
+3)Comm.jar file copy in to java/jdk/jre/lib/ext/
+4)javax.comm.properties file copy in to java/jdk/jre/lib/ext/
+5)win32com.dll file copy in to java/jdk/bin
+6)win32com.dll file copy in to java/jdk/jre/bin
+
